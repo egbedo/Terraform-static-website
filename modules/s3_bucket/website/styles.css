@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width:100% ;
+    height: 85px;
+    padding:5px 10px 5px 10px ;
+    box-shadow:1px 3px 10px;
+}
+.nav{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    padding: 20px;
+    
+}
+
+nav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+nav a{
+    
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #161512;
+}
+
+
+.logo img{
+    width:8%;
+}
+.whole-section{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 135px;
+    width: 100%;
+    
+}
+.left-side{
+    padding: 10px;
+    width: 680px;
+    height: 295px;
+}
+.about{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.about-text h2{
+    line-height: 1.5em;
+    font-size: 3.5em;
+}
+.about-text p{
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+.alt{
+    text-decoration: none;
+    color: #3f3d38;
+    cursor: pointer;
+}
+.alt:hover{
+    color: #201f1d;
+}
+.alt:hover::after{
+    color: #3f3d38;
+    text-decoration: none;
+}
+.id{
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.connect a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(85, 81, 81);
+}
+
+.connect-socials{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.connect-socials p{
+    font-size: 1.2em;
+}
+.socials{
+display: flex;
+gap: 15px;
+}
